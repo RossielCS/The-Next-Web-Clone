@@ -55,9 +55,15 @@ nav {
 /* FEATURE ARTICLES */
 
 .latest-news {
+  display: grid;
+  width: 1192px;
+  margin: 0 auto;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   height: 646px;
   background-color: hotpink;
 }
+
 
 .latest-funding {
   height: 335px;
