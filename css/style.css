@@ -1,0 +1,35 @@
+
+.navbar {
+  height: 80px;
+  background-color: aqua;
+}
+
+.feature-articles {
+  height: 496px;
+  background-color: green;
+}
+
+.latest-news {
+  height: 646px;
+  background-color: hotpink;
+}
+
+.latest-funding {
+  height: 335px;
+  background-color: brown;
+}
+
+.mix-articles {
+  height: 1176px;
+  background-color: darkgoldenrod;
+}
+
+.latest-deals {
+  height: 640px;
+  background-color: darkslategrey;
+}
+
+footer {
+  height: 191px;
+  background-color: gainsboro;
+}
