@@ -1,7 +1,22 @@
 
-.navbar {
-  height: 80px;
+nav {
+  height: 110px;
   background-color: aqua;
+}
+
+#first-navbar {
+  height: 32px;
+  background-color: black;
+}
+
+#second-navbar {
+  height: 48px;
+  background-color: white;
+}
+
+#top-side-announcement {
+  height: 30px;
+  background-color: yellow;
 }
 
 .feature-articles {
