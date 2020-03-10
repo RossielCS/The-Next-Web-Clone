@@ -19,10 +19,40 @@ nav {
   background-color: yellow;
 }
 
+/* FEATURE ARTICLES */
+
 .feature-articles {
   height: 496px;
-  background-color: green;
+  display: grid;
+  grid-gap: 10px;
+  grid-row: repeat(2, 1fr);
+  grid-template-columns: minmax(489px, auto) minmax(240px, auto);
 }
+
+#feat-art-01 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.feat-art-logo-cover {
+  height: 496px;
+  min-width: 489px;
+  background-color: red;
+}
+
+#feat-art-02 {
+  background-color: indigo;
+}
+
+#feat-art-03 {
+  background-color: lawngreen;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* FEATURE ARTICLES */
 
 .latest-news {
   height: 646px;
