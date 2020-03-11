@@ -91,18 +91,17 @@ nav {
   overflow: hidden;
 }
 
-#feat-art-01 {
+.feature-articles article {
   position: relative;
-  grid-row: 1/3;
-  grid-column: 1/2;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
-  
-}
-
-.feat-background {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+#feat-art-01 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
 }
 
 #logo-cover {
@@ -117,6 +116,17 @@ nav {
   background-repeat: no-repeat;
 }
 
+#feat-cover-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
 .feat-cover-gradient {
   z-index: 2;
   position: absolute;
@@ -128,11 +138,11 @@ nav {
 }
 
 #feat-art-02 {
-  background-color: indigo;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
 }
 
 #feat-art-03 {
-  background-color: lawngreen;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-796x417.png");
 }
 
 @media only screen and (max-width: 1024px) {
@@ -199,11 +209,12 @@ nav {
   }
 
   .feat-cover-gradient,
-  #logo-cover {
+  #logo-cover,
+  #feat-cover-date {
     visibility: hidden;
   }
 
-  .feat-art-cover {
+  .feature-articles article {
     min-height: 28vh;
   }
 }
