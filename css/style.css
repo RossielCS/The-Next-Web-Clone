@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 
 nav {
   height: 110px;
@@ -53,11 +57,12 @@ nav {
 /* FEATURE ARTICLES */
 
 .feature-articles {
-  height: 496px;
+  height: 57.5vh;
+  padding: 2px 8px 8px 8px;
   display: grid;
   grid-gap: 10px;
   grid-row: repeat(2, 1fr);
-  grid-template-columns: minmax(489px, auto) minmax(240px, auto);
+  grid-template-columns: 2fr 1fr;
   overflow: hidden;
 }
 
@@ -66,42 +71,6 @@ nav {
   grid-row: 1/3;
   grid-column: 1/2;
   background-color: red;
-}
-
-.feat-art-01-top {
-  z-index: 4;
-}
-
-.feat-art-01-bottom {
-  z-index: 5;
-}
-
-#feat-art-logo-cover {
-  z-index: 3;
-  position: absolute;
-}
-
-#feat-art-gradient-cover {
-  z-index: 2;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 496px;
-  width: 758px;
-  background-image: url("../images/cover-gradient.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#feat-art-background {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 496px;
-  width: 758px;
-  background-image: url("../images/feat-art-01.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #feat-art-02 {
@@ -113,7 +82,27 @@ nav {
 }
 
 @media only screen and (max-width: 1024px) {
+  .feature-articles {
+    height: 59.5vh;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .feature-articles {
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  #feat-art-01 {
+    grid-row: 1/2;
+  }
+
+  #feat-art-01,
+  #feat-art-02,
+  #feat-art-03 {
+    min-height: 30vh;
+  }
 }
 
 /* FEATURE ARTICLES */
@@ -127,7 +116,6 @@ nav {
   height: 646px;
   background-color: hotpink;
 }
-
 
 .latest-funding {
   height: 335px;
