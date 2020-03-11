@@ -32,6 +32,7 @@ nav {
   justify-content: space-between;
   height: 32px;
   background-color: black;
+  font-family: 'Sen', 'Bellota Text';
 }
 
 #first-navbar li {
@@ -300,6 +301,15 @@ nav {
   .feature-articles article {
     min-height: 28vh;
   }
+
+  #partner-information {
+    padding-top: 18px;
+  }
+
+  #partner-information span {
+    display: block;
+    line-height: 20px;
+  }
 }
 
 /* FEATURE ARTICLES */
@@ -347,7 +357,7 @@ footer {
 
 #social-media li {
   display: inline;
-  margin: 0 5px;
+  margin: 0 6px;
 }
 
 #social-media i {
