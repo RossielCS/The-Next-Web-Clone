@@ -79,7 +79,36 @@ nav {
   position: relative;
   grid-row: 1/3;
   grid-column: 1/2;
-  background-color: red;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
+  
+}
+
+.feat-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#logo-cover {
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 60%;
+  width: 55%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.feat-cover-gradient {
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #feat-art-02 {
@@ -99,6 +128,11 @@ nav {
   .feature-articles {
     height: 59.5vh;
   }
+
+  .feat-cover-gradient,
+  #logo-cover {
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -114,10 +148,9 @@ nav {
     display: none;
   }
 
-  #bu
-
   .feature-articles {
-    height: 100%;
+    height: auto;
+    padding-top: 0;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
   }
@@ -126,10 +159,13 @@ nav {
     grid-row: 1/2;
   }
 
-  #feat-art-01,
-  #feat-art-02,
-  #feat-art-03 {
-    min-height: 30vh;
+  .feat-cover-gradient,
+  #logo-cover {
+    visibility: hidden;
+  }
+
+  .feat-art-cover {
+    min-height: 28vh;
   }
 }
 
