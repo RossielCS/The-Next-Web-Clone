@@ -77,6 +77,7 @@ nav {
   height: 30px;
   background-color: yellow;
   padding-left: 5px;
+  line-height: 30px;
 }
 
 /* FEATURE ARTICLES */
@@ -309,26 +310,65 @@ footer {
 }
 
 #page-contacts {
-  background-color: gray;
+  background-color: #131313;
   height: 161px;
   text-align: center;
+  padding-top: 30px;
 }
 
-#page-contacts li {
+#social-media {
+  margin-bottom: 30px;
+}
+
+#social-media li {
   display: inline;
   margin: 0 5px;
 }
 
-#page-contacts a {
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  background-color: white;
+#social-media i {
+  color: white;
+  height: 16px;
+  width: 16px;
+}
+
+#social-media a {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #555;
   display: inline-block;
   border-radius: 30px;
+  border: 2px solid #555;
+}
+
+#social-media a:hover {
+  background-color: #131313;
+}
+
+#more-information li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#more-information a {
+  color: white;
+  text-decoration: none;
 }
 
 #partner-information {
   background-color: black;
   height: 97px;
+  color: white;
+  line-height: 97px;
+  text-align: center;
+}
+
+#logo-tnw-footer {
+  width: 37px;
+  height: 10px;
+}
+
+#logo-stackpath {
+  width: 65px;
+  height: 10px;
 }
