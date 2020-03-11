@@ -111,13 +111,27 @@ nav {
 
 .feature-articles a {
   text-decoration: none;
+}
+
+.title-white {
   color: white;
 }
 
-.feature-articles p {
-  margin-top: 30px;
+.material-icons {
+  height: 5px;
+  width: 5px;
+}
+
+#feat-art-01 header p,
+#feat-art-03 header p {
+  margin-top: 14px;
   font-size: 12px;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.feat-art-writers {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .feat-cover-gradient {
@@ -176,7 +190,14 @@ nav {
   background-repeat: no-repeat;
 }
 
-.second-art-title {
+#second-art-title,
+#third-art-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#second-art-title,
+#feat-art-03 header {
   z-index: 7;
   position: absolute;
   left: 20px;
@@ -184,8 +205,6 @@ nav {
   width: 90%;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: 700;
 }
 
 #feat-art-02 {
@@ -195,6 +214,7 @@ nav {
 #feat-art-03 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-796x417.png");
 }
+
 
 @media only screen and (max-width: 1024px) {
   #header-logo {
@@ -218,7 +238,7 @@ nav {
     font-size: 40px;
   }
 
-  .feature-articles p {
+  #feat-art-01 header p {
     margin-top: 16px;
   }
 
@@ -226,6 +246,11 @@ nav {
   #logo-cover,
   #feat-cover-date {
     visibility: hidden;
+  }
+
+  #second-art-title,
+  #third-art-title {
+    font-size: 20px;
   }
 }
 
