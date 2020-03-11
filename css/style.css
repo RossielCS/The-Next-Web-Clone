@@ -98,10 +98,47 @@ nav {
   background-position: 50% 50%;
 }
 
+#feat-art-01 header {
+  position: absolute;
+  z-index: 5;
+  width: 88%;
+  left: 24px;
+  bottom: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.feature-articles a {
+  text-decoration: none;
+  color: white;
+}
+
+.feature-articles p {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.feat-cover-gradient {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+  background-position: 0 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
 #feat-art-01 {
   grid-row: 1/3;
   grid-column: 1/2;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-796x448.jpg");
+}
+
+#main-art-title {
+  font-size: 50px;
+  font-weight: 700;
 }
 
 #logo-cover {
@@ -117,6 +154,7 @@ nav {
 }
 
 #feat-cover-date {
+  z-index: 6;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -127,7 +165,7 @@ nav {
   color: white;
 }
 
-.feat-cover-gradient {
+.feat-cover-orange {
   z-index: 2;
   position: absolute;
   height: 100%;
@@ -135,6 +173,18 @@ nav {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.second-art-title {
+  z-index: 7;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 90%;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 #feat-art-02 {
@@ -163,8 +213,17 @@ nav {
     height: 59.5vh;
   }
 
-  .feat-cover-gradient,
-  #logo-cover {
+  #main-art-title {
+    font-size: 40px;
+  }
+
+  .feature-articles p {
+    margin-top: 16px;
+  }
+
+  .feat-cover-orange,
+  #logo-cover,
+  #feat-cover-date {
     visibility: hidden;
   }
 }
@@ -208,12 +267,10 @@ nav {
     grid-row: 1/2;
   }
 
-  .feat-cover-gradient,
-  #logo-cover,
-  #feat-cover-date {
-    visibility: hidden;
+  #main-art-title {
+    font-size: 20px;
   }
-
+  
   .feature-articles article {
     min-height: 28vh;
   }
