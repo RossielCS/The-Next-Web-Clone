@@ -5,13 +5,44 @@ nav {
 }
 
 #first-navbar {
+  display: flex;
+  justify-content: space-between;
   height: 32px;
   background-color: black;
 }
 
+#first-navbar li {
+  display: inline;
+  line-height: 32px;
+  margin: 0 5px;
+}
+
+#first-navbar a {
+  color: white;
+  text-decoration: none;
+}
+
 #second-navbar {
+  display: flex;
+  justify-content: space-between;
   height: 48px;
   background-color: white;
+}
+
+#second-navbar li {
+  display: inline;
+  line-height: 48px;
+  margin: 0 5px;
+}
+
+#second-navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+#search-button {
+  width: 48px;
+  background-color: inherit;
 }
 
 #top-side-announcement {
