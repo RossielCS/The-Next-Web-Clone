@@ -13,7 +13,6 @@ nav {
   width: 106px;
   height: 80px;
   background-color: red;
-  position: fixed;
 }
 
 #first-navbar {
@@ -52,15 +51,20 @@ nav {
   text-decoration: none;
 }
 
-.second-nabvar-buttons {
+#second-nabvar-buttons button{
   width: 48px;
   height: 48px;
   background-color: inherit;
 }
 
+#menu-button{
+  display: none;
+}
+
 #top-side-announcement {
   height: 30px;
   background-color: yellow;
+  padding-left: 5px;
 }
 
 /* FEATURE ARTICLES */
@@ -125,6 +129,14 @@ nav {
     display: inline-block;
   }
 
+  #top-side-announcement {
+    padding-left: 111px;
+  }
+  
+  .hidden-items-second-nabvar {
+    display: none;
+  }
+
   .feature-articles {
     height: 59.5vh;
   }
@@ -146,6 +158,21 @@ nav {
 
   #second-navbar ul {
     display: none;
+  }
+  
+  #second-nabvar-buttons {
+    margin-left: auto;
+  }
+
+  #menu-button {
+    display: inline-block;
+  }
+
+  #top-side-announcement {
+    height: 60px;
+    padding-left: 0;
+    text-align: center;
+    line-height: 60px;
   }
 
   .feature-articles {
