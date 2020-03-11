@@ -15,6 +15,18 @@ nav {
   background-color: red;
 }
 
+#header-logo div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+#header-logo img{
+  height: 16px;
+  width: 66px;
+}
+
 #first-navbar {
   display: flex;
   justify-content: space-between;
@@ -224,6 +236,31 @@ nav {
 }
 
 footer {
-  height: 191px;
+  height: 258px;
   background-color: gainsboro;
+}
+
+#page-contacts {
+  background-color: gray;
+  height: 161px;
+  text-align: center;
+}
+
+#page-contacts li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#page-contacts a {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+#partner-information {
+  background-color: black;
+  height: 97px;
 }
