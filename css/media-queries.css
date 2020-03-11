@@ -1,0 +1,105 @@
+
+@media only screen and (max-width: 1024px) {
+  #header-logo {
+    height: 80px;
+    display: inline-block;
+  }
+
+  #top-side-announcement {
+    padding-left: 111px;
+  }
+  
+  .hidden-items-second-nabvar {
+    display: none;
+  }
+
+  .feature-articles {
+    height: 59.5vh;
+  }
+
+  #main-art-title {
+    font-size: 40px;
+  }
+
+  #feat-art-01 header p {
+    margin-top: 16px;
+  }
+
+  .feat-cover-orange,
+  #logo-cover,
+  #feat-cover-date {
+    visibility: hidden;
+  }
+
+  #second-art-title,
+  #third-art-title {
+    font-size: 20px;
+  }
+
+  .latest-news {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header-logo {
+    height: 48px;
+  }
+
+  #first-navbar {
+    display: none;
+  }
+
+  #second-navbar ul {
+    display: none;
+  }
+  
+  #second-nabvar-buttons {
+    margin-left: auto;
+  }
+
+  #menu-button {
+    display: inline-block;
+  }
+
+  #top-side-announcement {
+    height: 60px;
+    padding-left: 0;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .feature-articles {
+    height: auto;
+    padding-top: 0;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  #feat-art-01 {
+    grid-row: 1/2;
+  }
+
+  #main-art-title {
+    font-size: 20px;
+  }
+  
+  .feature-articles article {
+    min-height: 28vh;
+  }
+
+  #partner-information {
+    padding-top: 18px;
+  }
+
+  #partner-information span {
+    display: block;
+    line-height: 20px;
+  }
+
+  .latest-news {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

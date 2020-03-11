@@ -119,8 +119,7 @@ nav {
 }
 
 .material-icons {
-  height: 5px;
-  width: 5px;
+  font-size: 18px;
 }
 
 #feat-art-01 header p,
@@ -212,117 +211,69 @@ nav {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
 }
 
+.feat-art-tag-third {
+  font-size: 13px;
+}
+
 #feat-art-03 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-796x417.png");
 }
 
-
-@media only screen and (max-width: 1024px) {
-  #header-logo {
-    height: 80px;
-    display: inline-block;
-  }
-
-  #top-side-announcement {
-    padding-left: 111px;
-  }
-  
-  .hidden-items-second-nabvar {
-    display: none;
-  }
-
-  .feature-articles {
-    height: 59.5vh;
-  }
-
-  #main-art-title {
-    font-size: 40px;
-  }
-
-  #feat-art-01 header p {
-    margin-top: 16px;
-  }
-
-  .feat-cover-orange,
-  #logo-cover,
-  #feat-cover-date {
-    visibility: hidden;
-  }
-
-  #second-art-title,
-  #third-art-title {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #header-logo {
-    height: 48px;
-  }
-
-  #first-navbar {
-    display: none;
-  }
-
-  #second-navbar ul {
-    display: none;
-  }
-  
-  #second-nabvar-buttons {
-    margin-left: auto;
-  }
-
-  #menu-button {
-    display: inline-block;
-  }
-
-  #top-side-announcement {
-    height: 60px;
-    padding-left: 0;
-    text-align: center;
-    line-height: 60px;
-  }
-
-  .feature-articles {
-    height: auto;
-    padding-top: 0;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 1fr;
-  }
-
-  #feat-art-01 {
-    grid-row: 1/2;
-  }
-
-  #main-art-title {
-    font-size: 20px;
-  }
-  
-  .feature-articles article {
-    min-height: 28vh;
-  }
-
-  #partner-information {
-    padding-top: 18px;
-  }
-
-  #partner-information span {
-    display: block;
-    line-height: 20px;
-  }
-}
-
 /* FEATURE ARTICLES */
+
+/* LATEST NEWS */
 
 .latest-news {
   display: grid;
-  width: 1192px;
+  max-width: 1192px;
   margin: 0 auto;
+  padding: 0 20px;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  height: 646px;
-  background-color: hotpink;
+  min-height: 646px;
 }
+
+div[id^="latest"] {
+  height: 135px;
+  width: 270px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest-news-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Snag_3eff9168-520x270.png");
+}
+
+#latest-news-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-480x270.jpg");
+}
+
+#latest-news-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-516x270.png");
+}
+
+#latest-news-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-3-516x270.png");
+}
+
+#latest-news-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design14-516x270.png");
+}
+
+#latest-news-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/broken-piggy-bank-1472485404YoO-480x270.jpg");
+}
+
+#latest-news-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Veo-33-514x270.jpg");
+}
+
+#latest-news-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/vek6eka-540x270.jpg");
+}
+
+/* LATEST NEWS */
 
 .latest-funding {
   height: 335px;
