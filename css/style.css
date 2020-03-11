@@ -4,8 +4,16 @@ body {
 
 
 nav {
-  height: 110px;
   background-color: aqua;
+}
+
+#header-logo {
+  display: none;
+  float: left;
+  width: 106px;
+  height: 80px;
+  background-color: red;
+  position: fixed;
 }
 
 #first-navbar {
@@ -44,8 +52,9 @@ nav {
   text-decoration: none;
 }
 
-#search-button {
+.second-nabvar-buttons {
   width: 48px;
+  height: 48px;
   background-color: inherit;
 }
 
@@ -82,12 +91,31 @@ nav {
 }
 
 @media only screen and (max-width: 1024px) {
+  #header-logo {
+    height: 80px;
+    display: inline-block;
+  }
+
   .feature-articles {
     height: 59.5vh;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  #header-logo {
+    height: 48px;
+  }
+
+  #first-navbar {
+    display: none;
+  }
+
+  #second-navbar ul {
+    display: none;
+  }
+
+  #bu
+
   .feature-articles {
     height: 100%;
     grid-template-rows: repeat(3, 1fr);
