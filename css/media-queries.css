@@ -5,7 +5,6 @@
 
   .latest-news {
     grid-template-rows: 31px minmax(267px, 271px) minmax(247px, 271px);
-    grid-template-columns: repeat(4, minmax(247px, 259px));
   }
 }
 
@@ -49,7 +48,7 @@
   /* LATEST NEWS */
 
   .latest-news {
-    grid-template-columns: repeat(3, minmax(295px, 328px));
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 31px minmax(242px, 259px) 242px minmax(242px, 259px);
     grid-gap: 20px;
   }
@@ -73,7 +72,6 @@
   }
 
   .latest-news {
-    grid-template-columns: repeat(3, minmax(223px, 309px));
     grid-template-rows: 31px repeat(3, minmax(217px, 231px));
   }
 
@@ -147,12 +145,19 @@
   .latest-news {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    grid-gap: 14px;
   }
 
   div[id^="latest"] {
     height: 75px;
     width: 75px;
+    float: left;
+    margin-right: 15px;
   }
 
+  .latest-news article h2 {
+    margin-top: 0;
+  }
+  
   /* LATEST NEWS */
 }

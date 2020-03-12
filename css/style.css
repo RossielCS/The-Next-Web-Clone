@@ -184,7 +184,7 @@ nav {
   font-family: "Avalon Bold", sans-serif;
   font-size: 50px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 48px;
   font-kerning: auto;
 }
 
@@ -242,7 +242,6 @@ nav {
   bottom: 20px;
   width: 90%;
   display: block;
-  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 #feat-art-02 {
@@ -268,7 +267,7 @@ nav {
   padding: 24px 20px 0 20px;
   display: grid;
   grid-template-rows: 31px minmax(260px, 271px) minmax(251px, 260px);
-  grid-template-columns: repeat(4, minmax(272px, 294px));
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 24px;
 }
 
@@ -280,9 +279,28 @@ nav {
 #latest-title a {
   text-decoration: none;
   color: orangered;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Avalon Bold", sans-serif;
+  font-weight: 900;
   font-size: 28px;
   font-weight: bolder;
+}
+
+.latest-news article h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  word-spacing: 1px;
+}
+
+.latest-news article p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(170, 170, 170);
 }
 
 div[id^="latest"] {
