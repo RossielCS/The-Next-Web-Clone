@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1120px) {
+  .latest-news {
+    grid-template-rows: 31px minmax(267px, 271px) minmax(247px, 271px);
+    grid-template-columns: repeat(4, minmax(247px, 259px));
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   #header-logo {
@@ -8,10 +14,12 @@
   #top-side-announcement {
     padding-left: 111px;
   }
-  
+
   .hidden-items-second-nabvar {
     display: none;
   }
+
+  /* FEAT ARTICLES */
 
   .feature-articles {
     height: 59.5vh;
@@ -36,9 +44,41 @@
     font-size: 20px;
   }
 
+  /* FEAT ARTICLES */
+
+  /* LATEST NEWS */
+
   .latest-news {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(295px, 328px));
+    grid-template-rows: 31px minmax(242px, 259px) 242px minmax(242px, 259px);
+    grid-gap: 20px;
+  }
+
+  #latest-title {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+
+  div[id^="latest"] {
+    height: 154.3px;
+  }
+
+  /* LATEST NEWS */
+}
+
+@media only screen and (max-width: 920px) {
+  .feature-articles {
+    height: 49.5vh;
+    grid-gap: 8px;
+  }
+
+  .latest-news {
+    grid-template-columns: repeat(3, minmax(223px, 309px));
+    grid-template-rows: 31px repeat(3, minmax(217px, 231px));
+  }
+
+  div[id^="latest"] {
+    height: 119.5px;
   }
 }
 
@@ -54,7 +94,7 @@
   #second-navbar ul {
     display: none;
   }
-  
+
   #second-nabvar-buttons {
     margin-left: auto;
   }
@@ -70,6 +110,8 @@
     line-height: 60px;
   }
 
+  /* FEAT ARTICLES */
+
   .feature-articles {
     height: auto;
     padding-top: 0;
@@ -84,22 +126,33 @@
   #main-art-title {
     font-size: 20px;
   }
-  
+
   .feature-articles article {
     min-height: 28vh;
   }
 
+  /* FEAT ARTICLES */
+
   #partner-information {
     padding-top: 18px;
   }
-
+  
   #partner-information span {
     display: block;
     line-height: 20px;
   }
 
+  /* LATEST NEWS */
+
   .latest-news {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
+
+  div[id^="latest"] {
+    height: 75px;
+    width: 75px;
+  }
+
+  /* LATEST NEWS */
 }

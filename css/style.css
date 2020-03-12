@@ -232,18 +232,31 @@ nav {
 /* LATEST NEWS */
 
 .latest-news {
-  display: grid;
   max-width: 1192px;
-  margin: 0 auto;
-  padding: 0 20px;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  min-height: 646px;
+  margin: 60px auto 0 auto;
+  padding: 24px 20px 0 20px;
+  display: grid;
+  grid-template-rows: 31px minmax(260px, 271px) minmax(251px, 260px);
+  grid-template-columns: repeat(4, minmax(272px, 294px));
+  grid-gap: 24px;
+}
+
+#latest-title {
+  grid-row: 1/2;
+  grid-column: 1/-1;
+}
+
+#latest-title a {
+  text-decoration: none;
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
 }
 
 div[id^="latest"] {
   height: 135px;
-  width: 270px;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
