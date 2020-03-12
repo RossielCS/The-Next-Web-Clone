@@ -63,6 +63,22 @@
   }
 
   /* LATEST NEWS */
+
+  /* LATEST DEALS */
+
+  .latest-deals {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 32px repeat(3, 1fr);
+  }
+
+  .latest-deals header {
+    grid-column: 1/4;
+  }
+
+  .latest-deals h2 {
+    display: block;
+  }
+
 }
 
 @media only screen and (max-width: 920px) {
