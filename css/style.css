@@ -32,7 +32,10 @@ nav {
   justify-content: space-between;
   height: 32px;
   background-color: black;
-  font-family: 'Sen', 'Bellota Text';
+  font-family: 'Source Sans Pro', 'Inter';
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #first-navbar li {
@@ -42,7 +45,7 @@ nav {
 }
 
 #first-navbar a {
-  color: white;
+  color: #555;
   text-decoration: none;
 }
 
@@ -51,6 +54,7 @@ nav {
   justify-content: space-between;
   height: 48px;
   background-color: white;
+  padding-left: 15px;
 }
 
 #second-navbar li {
@@ -60,7 +64,7 @@ nav {
 }
 
 #second-navbar a {
-  color: black;
+  color: #AAA;
   text-decoration: none;
 }
 
@@ -70,14 +74,18 @@ nav {
   background-color: inherit;
 }
 
-#menu-button{
+#search-button {
+  border: 0.1px solid #AAA ;
+}
+
+#menu-button {
   display: none;
 }
 
 #top-side-announcement {
   height: 30px;
   background-color: yellow;
-  padding-left: 5px;
+  padding-left: 20px;
   line-height: 30px;
 }
 
