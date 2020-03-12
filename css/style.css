@@ -285,7 +285,8 @@ nav {
   font-weight: bolder;
 }
 
-.latest-news article h2 {
+.latest-news article h2,
+.latest-deals article h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -359,11 +360,32 @@ div[id^="latest"] {
   height: 640px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.latest-deals header{
+  grid-column: 1/5;
 }
 
 .latest-deals article {
   padding: 12px;
+}
+
+div[id^="latest-deals"] {
+  height: 201px;
+}
+
+.latest-deals span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.price-line-through{
+  color: rgb(170, 170, 170);
+  text-decoration: line-through;
 }
 
 #latest-deals-1 {
