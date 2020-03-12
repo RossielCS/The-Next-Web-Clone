@@ -305,6 +305,11 @@ nav {
   text-decoration: none;
 }
 
+.more-information-sections {
+  font-family: 'Source Sans Pro', 'Inter';
+  color: orangered;
+}
+
 /* LATEST NEWS */
 
 .latest-news {
@@ -419,6 +424,9 @@ div[id^="latest"] {
 
 .latest-deals header{
   grid-column: 1/5;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
 }
 
 .latest-deals article {
@@ -433,6 +441,13 @@ div[id^="latest"] {
   top: 0;
   background-image: linear-gradient(to top right, rgba(0, 0, 0, 0) 50%, yellow 50%);
   z-index: 10;
+  text-align: center;
+  line-height: 60px;
+}
+
+.deals-discount div {
+  padding-left: 10px;
+  transform: rotate(45deg);
 }
 
 div[id^="latest-deals"] {

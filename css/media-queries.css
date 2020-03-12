@@ -179,6 +179,10 @@
     grid-column: 1/2;
   }
 
+  .deals-discount {
+    display: none;
+  }
+
   .latest-deals article h2 {
     margin-top: 0;
   }
