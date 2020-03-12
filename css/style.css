@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Avalon Bold";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/Avalon_Bold.ttf");
+}
+
+
 body {
   overflow-x: hidden;
 }
@@ -111,6 +119,7 @@ nav {
   grid-row: repeat(2, 1fr);
   grid-template-columns: 2fr 1fr;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .feature-articles article {
@@ -126,7 +135,7 @@ nav {
   width: 88%;
   left: 24px;
   bottom: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
   color: white;
 }
 
@@ -172,8 +181,16 @@ nav {
 }
 
 #main-art-title {
+  font-family: "Avalon Bold", sans-serif;
   font-size: 50px;
   font-weight: 700;
+  line-height: 40px;
+  font-kerning: auto;
+}
+
+.feat-art-tag {
+  font-family: 'Electrolize', 'Rajdhani';
+  font-weight: 500;
 }
 
 #logo-cover {
@@ -212,6 +229,7 @@ nav {
 
 #second-art-title,
 #third-art-title {
+  font-family: "Avalon Bold", sans-serif;
   font-size: 28px;
   font-weight: 700;
 }
@@ -224,7 +242,7 @@ nav {
   bottom: 20px;
   width: 90%;
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 #feat-art-02 {
@@ -232,6 +250,7 @@ nav {
 }
 
 .feat-art-tag-third {
+  font-family: 'Electrolize', 'Rajdhani';
   font-size: 13px;
 }
 
