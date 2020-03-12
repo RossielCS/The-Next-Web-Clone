@@ -323,12 +323,7 @@ nav {
 }
 
 #latest-title a {
-  text-decoration: none;
-  color: orangered;
-  font-family: "Avalon Bold", sans-serif;
-  font-weight: 900;
-  font-size: 28px;
-  font-weight: bolder;
+  margin-left: 0;
 }
 
 .latest-news article h2,
@@ -340,6 +335,15 @@ nav {
   font-size: 14px;
   line-height: 18px;
   word-spacing: 1px;
+}
+
+.latest-news p a {
+  color: rgb(170, 170, 170);
+}
+
+.latest-news p a:hover {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
 }
 
 .news-articles p {
@@ -405,11 +409,6 @@ div[id^="latest"] {
 .latest-funding {
   height: 335px;
   background-color: brown;
-}
-
-.mix-articles {
-  height: 1176px;
-  background-color: darkgoldenrod;
 }
 
 .latest-deals {
@@ -480,6 +479,27 @@ div[id^="latest-deals"] {
 #latest-deals-8 {
   background-image: url("https://cdnp1.stackassets.com/b5f373f63242539de2302f03aa9498601d6a2968/store/6214a05e495b0b0a9c306989bfa8053c49cc83f6c0cb7c9cae0e22124210/product_36559_product_shots3.jpg");
 }
+
+/* MIX ARTICLES */
+
+.mix-articles {
+  height: 1176px;
+  margin: 12px 12px 40px 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  background-color: darkgoldenrod;
+}
+
+.mix-articles div {
+  max-width: 33.333%;
+  margin-bottom: 24px;
+  padding: 12px;
+  background-color: palegreen;
+}
+
+/* MIX ARTICLES */
 
 footer {
   height: 258px;
