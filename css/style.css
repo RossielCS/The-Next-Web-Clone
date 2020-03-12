@@ -412,10 +412,9 @@ div[id^="latest"] {
 }
 
 .latest-deals {
-  height: 640px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 32px repeat(2, 1fr);
 }
 
 .latest-deals header{
@@ -426,8 +425,19 @@ div[id^="latest"] {
   padding: 12px;
 }
 
+.deals-discount {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0) 50%, yellow 50%);
+  z-index: 10;
+}
+
 div[id^="latest-deals"] {
   height: 201px;
+  position: relative;
 }
 
 .latest-deals span {

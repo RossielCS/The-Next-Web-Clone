@@ -176,4 +176,17 @@
   }
   
   /* LATEST NEWS */
+
+  .latest-deals {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .latest-deals header {
+    grid-column: 1/2;
+  }
+
+  .latest-deals article h2 {
+    margin-top: 0;
+  }
 }
