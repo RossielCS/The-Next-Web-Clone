@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1120px) {
+  .hidden-items-second-nabvar {
+    display: none;
+  }
+
   .latest-news {
     grid-template-rows: 31px minmax(267px, 271px) minmax(247px, 271px);
     grid-template-columns: repeat(4, minmax(247px, 259px));
@@ -13,10 +17,6 @@
 
   #top-side-announcement {
     padding-left: 111px;
-  }
-
-  .hidden-items-second-nabvar {
-    display: none;
   }
 
   /* FEAT ARTICLES */

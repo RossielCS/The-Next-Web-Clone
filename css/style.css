@@ -31,7 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   height: 32px;
-  background-color: black;
+  background-color: #131313;
   font-family: 'Source Sans Pro', 'Inter';
   font-size: 14px;
   padding-left: 15px;
@@ -45,7 +45,7 @@ nav {
 }
 
 #first-navbar a {
-  color: #555;
+  color: #a0a0a0;
   text-decoration: none;
 }
 
@@ -55,6 +55,7 @@ nav {
   height: 48px;
   background-color: white;
   padding-left: 15px;
+  font-family: 'Electrolize', 'Rajdhani';
 }
 
 #second-navbar li {
@@ -75,11 +76,22 @@ nav {
 }
 
 #search-button {
-  border: 0.1px solid #AAA ;
+  border: 1px solid #e7e7e7;
+}
+
+#search-button i{
+  color: #bebebe;
+  transform: rotate(90deg);
+  font-size: 16px;
 }
 
 #menu-button {
   display: none;
+  border: 1px solid #e7e7e7;
+}
+
+#menu-button i {
+  font-size: 16px;
 }
 
 #top-side-announcement {
