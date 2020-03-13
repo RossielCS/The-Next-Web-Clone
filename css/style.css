@@ -468,14 +468,21 @@ div[id^="latest"] {
   border-bottom: 1px solid #e7e7e7;
 }
 
+.tags-and-partners i {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
 .tags-and-partners a {
+  position: relative;
   display: block;
   color: black;
   text-decoration: none;
+  padding-left: 26px;
 }
 
 .tags-and-partners span {
-  padding-left: 10px;
   line-height: 30px;
 }
 
