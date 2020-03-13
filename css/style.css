@@ -322,11 +322,11 @@ nav {
 
 .latest-news {
   margin: 60px auto 0 auto;
-  padding: 24px 20px 80px 20px;
+  padding: 24px 0 80px 0;
   display: grid;
   grid-template-rows: 31px repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 24px;
+  grid-gap: 20px;
 }
 
 #latest-title {
@@ -515,15 +515,14 @@ div[id^="latest"] {
 /* MIX ARTICLES */
 
 .mix-articles {
-  margin: 0 -12px 40px -12px;
-  max-width: 1192px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .mix-articles section {
-  /*max-width: 33.333%;*/
   position: relative;
   margin-bottom: 24px;
 }
@@ -535,8 +534,8 @@ div[id^="latest"] {
 .mix-art-header {
   z-index: 10;
   position: absolute;
-  left: 25px;
-  top: 217px;
+  left: 15px;
+  top: 200px;
   width: 80%;
   color: white;
 }
