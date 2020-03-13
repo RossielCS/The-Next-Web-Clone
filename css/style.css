@@ -454,13 +454,18 @@ div[id^="latest"] {
 .business-capital {
   height: 57px;
   background-color: rgba(255, 68, 34, 0.08);
-  padding-left: 80px;
+  padding: 10px 16px 10px 80px;
+  line-height: 20px;
 }
 
-.profit{
-  padding-left: 10px;
-  color: black;
-  text-decoration: none;
+.business-capital :first-child {
+  font-family: "Avalon Bold", sans-serif;
+}
+
+.business-capital :nth-child(2) {
+  font-family: 'Electrolize', 'Rajdhani';
+  font-size: 11px;
+  color: #AAA;
 }
 
 .tags-and-partners {
@@ -483,7 +488,28 @@ div[id^="latest"] {
 }
 
 .tags-and-partners span {
-  line-height: 30px;
+  line-height: 25px;
+  font-family: 'Source Sans Pro', 'Inter';
+  font-size: 13px;
+  color: #555;
+}
+
+.profit{
+  padding: 10px 16px;
+  line-height: 20px;
+  font-family: 'Source Sans Pro', 'Inter';
+  font-size: 12px;
+  
+}
+
+.profit a {
+  color: black;
+  text-decoration: none;
+  color: #555;
+}
+
+.profit span {
+  color: #AAA;
 }
 
 /* MIX ARTICLES */
