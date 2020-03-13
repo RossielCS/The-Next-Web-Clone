@@ -420,7 +420,36 @@ div[id^="latest"] {
   grid-template-rows: 32px 1fr;
 }
 
+.latest-funding header {
+  grid-column: 1/5;
+}
 
+.latest-funding article {
+  padding: 12px;
+  position: relative;
+}
+
+.latest-funding article h2 {
+  background-color: #F42;
+  height: 43px;
+  padding-left: 80px;
+  line-height: 39px;
+  color: white;
+  font-family: "Avalon Bold", sans-serif;
+}
+
+.latest-funding article img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 10px;
+}
+
+.latest-funding article div {
+  height: 57px;
+  background-color: rgba(255, 68, 34, 0.08);
+  padding-left: 80px;
+}
 
 .latest-deals {
   display: grid;
