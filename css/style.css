@@ -281,7 +281,7 @@ nav {
 
 .feat-art-tag-third {
   font-family: 'Electrolize', 'Rajdhani';
-  font-size: 13px;
+  font-size: 14px;
 }
 
 #feat-art-03 {
@@ -289,6 +289,12 @@ nav {
 }
 
 /* FEATURE ARTICLES */
+
+.sections-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1192px;
+}
 
 /* HEADER OF EACH SECTION */
 
@@ -315,9 +321,8 @@ nav {
 /* LATEST NEWS */
 
 .latest-news {
-  max-width: 1192px;
   margin: 60px auto 0 auto;
-  padding: 24px 20px 0 20px;
+  padding: 24px 20px 80px 20px;
   display: grid;
   grid-template-rows: 31px repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -566,9 +571,32 @@ div[id^="latest-deals"] {
   width: 368px;
   margin-top: 31px;
   margin-bottom: 2px;
+  position: relative;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Logitech-368x276.jpg");
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.mix-art-header {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  color: white;
+}
+
+.mix-art-header p {
+  font-family: 'Electrolize', 'Rajdhani';
+}
+
+.mix-art-header h4 {
+  font-family: "Avalon Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mix-art-header a {
+  text-decoration: none;
+  color: white;
 }
 
 .mix-art-latest {
@@ -581,12 +609,17 @@ div[id^="latest-deals"] {
 .mix-art-latest p {
   width: 50%;
   padding-top: 15px;
+  padding-bottom: 2px;
   font-family: 'Electrolize', 'Rajdhani';
   font-size: 14px;
   font-weight: 500;
 }
 
-.mix-art-latest a {
+.mix-art-latest > a {
+  float: right;
+}
+
+.mix-art-latest h3 a {
   display: inline-block;
   width: 65%;
   font-family: Arial, Helvetica, sans-serif;
@@ -609,15 +642,31 @@ div[id^="latest-deals"] {
   background-size: cover;
 }
 
+.mix-articles li::before {
+  width: 1em;
+  margin-left: -1em;
+  display: inline-block;
+  font-weight: bold;
+  content: "\2022";
+  color: orangered;  
+}
+
 .mix-articles li {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 8px 0 8px 16px;
+  border-bottom: 1px solid rgb(238, 238, 238);
 }
 
 .mix-art-list a {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
   text-decoration: none;
-  color: orangered;
+  color: rgb(85, 85, 85);
+}
+
+.mix-art-list a:hover {
+  color: black;
 }
 
 /* MIX ARTICLES */
