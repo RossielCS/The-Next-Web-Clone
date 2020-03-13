@@ -519,17 +519,29 @@ div[id^="latest"] {
 
 /* MIX ARTICLES */
 
-.mix-articles {
+/*.mix-articles {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 20px;
+}*/
+
+.mix-articles {
+  margin: -12px -12px 40px -12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .mix-articles section {
   position: relative;
+  padding: 12px;
   margin-bottom: 24px;
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+  display: flex;
+  flex-direction: column;
 }
 
 .mix-articles section a {
