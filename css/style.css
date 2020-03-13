@@ -419,10 +419,11 @@ div[id^="latest"] {
 /* LATEST NEWS */
 
 .latest-funding {
-  height: 335px;
+  height: 337px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 32px 1fr;
+  padding-bottom: 56px;
 }
 
 .latest-funding header {
@@ -450,10 +451,32 @@ div[id^="latest"] {
   margin: 10px;
 }
 
-.latest-funding article div {
+.business-capital {
   height: 57px;
   background-color: rgba(255, 68, 34, 0.08);
   padding-left: 80px;
+}
+
+.profit{
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.tags-and-partners {
+  padding: 16px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.tags-and-partners a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.tags-and-partners span {
+  padding-left: 10px;
+  line-height: 30px;
 }
 
 .latest-deals {
