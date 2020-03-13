@@ -23,6 +23,7 @@
 
   #main-art-title {
     font-size: 40px;
+    line-height: 45px;
   }
 
   #feat-art-01 header p {
@@ -38,6 +39,13 @@
   #second-art-title,
   #third-art-title {
     font-size: 20px;
+  }
+
+  #feat-art-01 header,
+  #feat-art-03 header,
+  #second-art-title {
+    left: 12px;
+    bottom: 18px;
   }
 
   /* FEAT ARTICLES */
@@ -130,10 +138,13 @@
     grid-row: 1/2;
   }
 
-  #main-art-title {
+  #main-art-title,
+  #second-art-title,
+  #third-art-title {
     font-size: 20px;
+    line-height: 25px;
   }
-
+  
   .feature-articles article {
     min-height: 28vh;
   }
