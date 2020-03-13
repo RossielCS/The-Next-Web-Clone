@@ -49,6 +49,23 @@
   }
   /* LATEST NEWS */
 
+  /* LATEST FOUNDING */
+
+  .latest-funding {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 32px auto;
+  }
+
+  .latest-funding > :nth-child(4){
+    display: none;
+  }
+
+  .latest-funding header {
+    grid-column: 1/4;
+  }
+
+  /* LATEST FOUNDING */
+
   /* MIX ARTICLES */
 
   .mix-articles {
@@ -147,6 +164,20 @@
     margin-top: 0;
   }
   /* LATEST NEWS */
+
+  .latest-funding {
+    grid-template-columns: 1fr;
+    grid-row: 32px auto;
+  }
+
+  .latest-funding header {
+    grid-column: 1/2;
+  }
+
+  .latest-funding article {
+    padding: 0;
+  }
+
   .latest-deals {
     grid-template-columns: 1fr;
     grid-template-rows: auto;

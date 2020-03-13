@@ -419,7 +419,6 @@ div[id^="latest"] {
 /* LATEST NEWS */
 
 .latest-funding {
-  height: 337px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 32px 1fr;
@@ -428,6 +427,11 @@ div[id^="latest"] {
 
 .latest-funding header {
   grid-column: 1/5;
+  line-height: 32px;
+}
+
+.latest-funding header > a {
+  float: right;
 }
 
 .latest-funding article {
@@ -439,6 +443,7 @@ div[id^="latest"] {
   background-color: #F42;
   height: 43px;
   padding-left: 80px;
+  padding-right: 16px;
   line-height: 39px;
   color: white;
   font-family: "Avalon Bold", sans-serif;
@@ -458,11 +463,11 @@ div[id^="latest"] {
   line-height: 20px;
 }
 
-.business-capital :first-child {
+.business-capital > :first-child {
   font-family: "Avalon Bold", sans-serif;
 }
 
-.business-capital :nth-child(2) {
+.business-capital > :nth-child(2) {
   font-family: 'Electrolize', 'Rajdhani';
   font-size: 11px;
   color: #AAA;
