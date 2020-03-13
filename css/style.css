@@ -20,7 +20,7 @@ nav {
   float: left;
   width: 106px;
   height: 80px;
-  background-color: red;
+  background-image: linear-gradient(to bottom right, #c8009a, #f94321);
 }
 
 #header-logo div{
@@ -107,6 +107,8 @@ nav {
   background-color: yellow;
   padding-left: 20px;
   line-height: 30px;
+  font-family: 'Source Sans Pro', 'Inter';
+  font-size: 14px;
 }
 
 /* COLORS */
@@ -413,8 +415,12 @@ div[id^="latest"] {
 
 .latest-funding {
   height: 335px;
-  background-color: brown;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 32px 1fr;
 }
+
+
 
 .latest-deals {
   display: grid;
@@ -588,15 +594,14 @@ div[id^="latest-deals"] {
 /* MIX ARTICLES */
 
 footer {
-  height: 258px;
   background-color: gainsboro;
 }
 
 #page-contacts {
   background-color: #131313;
-  height: 161px;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #social-media {
