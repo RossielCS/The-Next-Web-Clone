@@ -522,9 +522,14 @@ div[id^="latest-deals"] {
   padding: 12px;
 }
 
+.mix-articles section a {
+  margin-left: 0;
+}
+
 #mix-art1-pic {
   height: 276px;
   width: 368px;
+  margin-top: 31px;
   margin-bottom: 2px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Logitech-368x276.jpg");
   background-position: 50% 50%;
@@ -534,21 +539,21 @@ div[id^="latest-deals"] {
 .mix-art-latest {
   height: 96px;
   width: 368px;
+  padding-left: 15px;
   background-color: rgba(255, 68, 34, 0.06);
 }
 
-.mix-articles p {
-  float: left;
+.mix-art-latest p {
   width: 50%;
+  padding-top: 15px;
   font-family: 'Electrolize', 'Rajdhani';
   font-size: 14px;
   font-weight: 500;
 }
 
 .mix-art-latest a {
-  float: left;
   display: inline-block;
-  width: 70%;
+  width: 65%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 14px;
@@ -567,6 +572,17 @@ div[id^="latest-deals"] {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/google-play-store-dark-mode.jpg");
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.mix-articles li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mix-art-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: orangered;
 }
 
 /* MIX ARTICLES */
