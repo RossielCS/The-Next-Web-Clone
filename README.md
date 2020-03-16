@@ -13,7 +13,7 @@ We used floats, grid, flexbox, and media queries to make a responsive web page w
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/RossielCS/The-Next-Web-Clone/Index-website/index.html)
 
 
 ## Getting Started
