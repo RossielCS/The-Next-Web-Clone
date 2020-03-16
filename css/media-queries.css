@@ -173,7 +173,8 @@
     grid-row: 1/2;
   }
 
-  #feat-art-01 header p, #feat-art-03 header p {
+  #feat-art-01 header p,
+  #feat-art-03 header p {
     margin-top: 5px;
   }
 
