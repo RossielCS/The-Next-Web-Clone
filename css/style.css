@@ -456,12 +456,8 @@ div[id^="latest"] {
   grid-column: 1/5;
 }
 
-.latest-funding-header > span {
+.line-between-text {
   float: right;
-}
-
-.latest-funding header > span {
-  display: inline-block;
   margin: 0 10px;
   font-family: 'Source Sans Pro', 'Inter', sans-serif;
   color: orangered;

@@ -83,7 +83,7 @@
   }
 
   .latest-funding-header h2 {
-    display: block;
+    display: block !important;
   }
 
   .latest-funding-header > a,
