@@ -86,7 +86,8 @@
     display: block;
   }
 
-  .latest-funding header > a {
+  .latest-funding header > a,
+  .latest-funding header > span {
     float: left;
   }
 
@@ -197,9 +198,17 @@
     line-height: 20px;
   }
 
+  .latest-funding header h2{
+    margin-bottom: 20px;
+  }
+
   .latest-funding header > a {
     float: none;
     display: block;
+  }
+
+  .latest-funding header > span {
+    display: none;
   }
 
   /* LATEST NEWS */

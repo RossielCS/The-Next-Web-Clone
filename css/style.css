@@ -293,13 +293,11 @@ body {
 /* HEADER OF EACH SECTION */
 
 .header-sections {
-  margin: 0 15px;
   text-decoration: none;
   color: orangered;
   font-family: "Avalon Bold", sans-serif;
   font-weight: 900;
   font-size: 28px;
-  font-weight: bolder;
 }
 
 .header-sections:hover {
@@ -310,6 +308,12 @@ body {
 .more-information-sections {
   font-family: 'Source Sans Pro', 'Inter';
   color: orangered;
+  text-decoration: none;
+  line-height: 32px;
+}
+
+.more-information-sections:hover {
+  color: #131313;
 }
 
 /* LATEST NEWS */
@@ -416,6 +420,7 @@ div[id^="latest"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 32px 1fr;
+  gap: 20px;
   padding-bottom: 56px;
 }
 
@@ -423,12 +428,21 @@ div[id^="latest"] {
   grid-column: 1/5;
 }
 
-.latest-funding header > a {
+.latest-funding header > a,
+.latest-funding header > span {
   float: right;
 }
 
+.latest-funding header > span {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: 'Source Sans Pro', 'Inter';
+  color: orangered;
+  font-size: 13px;
+  line-height: 32px;
+}
+
 .latest-funding article {
-  padding: 12px;
   position: relative;
 }
 
@@ -742,6 +756,7 @@ div[id^="latest"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 32px repeat(2, 1fr);
+  gap: 20px;
 }
 
 .latest-deals header{
@@ -749,10 +764,6 @@ div[id^="latest"] {
   display: flex;
   justify-content: space-between;
   padding-right: 12px;
-}
-
-.latest-deals article {
-  padding: 12px;
 }
 
 .deals-discount {
