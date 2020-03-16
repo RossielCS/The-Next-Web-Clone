@@ -3,7 +3,7 @@
 In this project, we work on doing a clone of the website [The Next Web](https://thenextweb.com/). 
 We used floats, grid, flexbox, and media queries to make a responsive web page with a mobile-first approach.
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/60085697/76800569-b236d900-67b2-11ea-90e7-66717ffb1003.png)
 
 ## Built With
 

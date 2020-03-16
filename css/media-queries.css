@@ -231,8 +231,7 @@
   }
 
   .news-art-text {
-    float: right;
-    width: 71%;
+    margin-left: 90px;
   }
 
   /* LATEST NEWS */
