@@ -520,68 +520,66 @@ div[id^="latest"] {
 
 /* MIX ARTICLES */
 
-/* .mix-articles {
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
-}*/
-
 .mix-articles {
   margin: -12px -12px 40px -12px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  flex-shrink: 1;
 }
 
 .mix-articles section {
-  position: relative;
   padding: 12px;
   margin-bottom: 24px;
-  flex-basis: 33.333%;
-  max-width: 33.333%;
-  display: flex;
-  flex-direction: column;
+  flex-basis: 33.3%;
+  max-width: 33.3%;
+  line-height: 21px;
 }
 
-.mix-articles section a {
-  margin-left: 0;
+.mix-art-part01 a {
+  margin: 0;
+}
+
+.mix-art-part02 {
+  position: relative;
 }
 
 .mix-art-header {
-  z-index: 10;
   position: absolute;
-  left: 15px;
-  top: 200px;
-  width: 80%;
+  z-index: 11;
+  left: 14px;
+  bottom: 14px;
+  width: 90%;
+}
+
+.mix-art-header * {
+  text-decoration: none;
   color: white;
 }
 
 .header-top {
-  padding-bottom: 5px;
-  font-family: 'Electrolize', 'Rajdhani';
+  font-family: 'Electrolize', 'Rajdhani', sans-serif;
   font-size: 13px;
-  font-weight: 500;
 }
 
-.mix-art-header h3 {
-  font-family: "Avalon Bold", sans-serif;
+.mix-art-title {
+  font-family: 'Avalon Bold', sans-serif;
   font-size: 20px;
-  line-height: 22px;
-  font-weight: 700;
-  color: white;
+  font-weight: 800;
+  line-height: 26px;
 }
 
 .mix-art-title h3:hover {
   display: inline;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .mix-art-writer {
-  margin-top: 10px;
+  margin-top: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -593,42 +591,37 @@ div[id^="latest"] {
   color: white;
 }
 
-.mix-art-header a {
-  text-decoration: none;
-}
-
-#mix-art1-pic {
-  height: 276px;
-  width: 368px;
+.mix-art-background-pic {
+  position: relative;
+  height: 0;
+  padding-top: 75%;
   margin-top: 18px;
   margin-bottom: 2px;
-  position: relative;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Logitech-368x276.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
-.mix-art-latest {
+.mix-art-part03 {
   height: 96px;
-  width: 368px;
+  width: 100%;
   padding-left: 15px;
   background-color: rgba(255, 68, 34, 0.06);
 }
 
-.mix-art-latest p {
+.mix-art-part03 p {
   width: 50%;
-  padding-top: 15px;
-  padding-bottom: 2px;
-  font-family: 'Electrolize', 'Rajdhani';
+  padding-top: 8px;
+  padding-bottom: 1px;
+  font-family: 'Electrolize', 'Rajdhani', sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
 
-.mix-art-latest > a {
+.mix-art-part03 > a {
   float: right;
 }
 
-.mix-art-latest h4 a {
+.mix-art-part03 h4 a {
   display: inline-block;
   width: 65%;
   font-family: Arial, Helvetica, sans-serif;
@@ -639,34 +632,33 @@ div[id^="latest"] {
   color: orangered;
 }
 
-.mix-art-latest a:hover {
+.mix-art-part03 a:hover {
   text-decoration: underline;
 }
 
-#mix-art1-small-pic {
+.background-small-pic {
   float: right;
   height: 96px;
   width: 96px;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/google-play-store-dark-mode.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
-.mix-articles li::before {
+.mix-art-part04 li::before {
   width: 1em;
   margin-left: -1em;
   display: inline-block;
   font-weight: bold;
   content: "\2022";
-  color: orangered;  
+  color: orangered;
 }
 
-.mix-articles li {
+.mix-art-part04 li {
   padding: 8px 15px 8px 16px;
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-.mix-art-list a {
+.mix-art-part04 a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -675,11 +667,80 @@ div[id^="latest"] {
   color: rgb(85, 85, 85);
 }
 
-.mix-art-list a:hover {
+.mix-art-part04 a:hover {
   color: black;
 }
 
+.mix-art-part04 a:visited {
+  color: rgba(167, 167, 167, 0.432);
+}
+
+#mix-art-pic01 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-368x276.jpg");
+}
+
+#mix-art-pic02 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/macbook-air-aesthetics-368x276.png");
+}
+
+#mix-art-pic03 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header-368x276.png");
+}
+
+#mix-art-pic04 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+}
+
+#mix-art-pic05 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
+}
+
+#mix-art-pic06 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Amazon-cloud-368x276.jpg");
+}
+
+#mix-art-pic07 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
+}
+
+#mix-art-pic08 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg");
+}
+
+#small-pic01 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain.jpg");
+}
+
+#small-pic02 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/header-image-entry-level-AirPods-Pro-Lite-FINAL.png");
+}
+
+#small-pic03 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/accessibility_header2.png");
+}
+
+#small-pic04 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04.png");
+}
+
+#small-pic05 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/american-voting.png");
+}
+
+#small-pic06 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Tesla-model-s-range-390-miles-improve-battery-tech-drive-model-x-musk-twitter-tweet.jpg");
+}
+
+#small-pic07 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/robots.jpg");
+}
+
+#small-pic08 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/twitter-bot-pitching.png");
+}
+
 /* MIX ARTICLES */
+
 
 .latest-deals {
   display: grid;
