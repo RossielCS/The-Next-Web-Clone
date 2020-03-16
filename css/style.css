@@ -353,6 +353,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
+
 .news-articles {
   position: relative;
 }
