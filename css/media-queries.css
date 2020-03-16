@@ -1,13 +1,11 @@
-@media only screen and (max-width: 1120px) {
-  .hidden-items-second-nabvar {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   #header-logo {
     height: 80px;
     display: inline-block;
+  }
+
+  .hidden-items-second-nabvar {
+    display: none;
   }
 
   #top-side-announcement {
@@ -119,17 +117,6 @@
 
   .latest-deals h2 {
     display: block;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  .feature-articles {
-    height: 49.5vh;
-    grid-gap: 8px;
-  }
-
-  div[id^="latest"] {
-    height: 119.5px;
   }
 }
 
