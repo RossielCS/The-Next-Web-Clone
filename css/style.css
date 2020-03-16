@@ -369,11 +369,11 @@ body {
   word-spacing: 1px;
 }
 
-.latest-news p a {
-  color: rgb(170, 170, 170);
+.latest-news-link {
+  color: rgb(170, 170, 170) !important;
 }
 
-.latest-news p a:hover {
+.latest-news-link:hover {
   text-decoration: none;
   color: rgb(85, 85, 85);
 }
@@ -405,35 +405,35 @@ div[id^="latest"] {
 }
 
 #latest-news-1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Snag_3eff9168-520x270.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_23318_primary_image_wide-540x270.jpg");
 }
 
 #latest-news-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/coronavirus-china-app-480x270.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/EprbQBK-540x270.jpg");
 }
 
 #latest-news-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-516x270.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/AW7fzkv-540x270.jpg");
 }
 
 #latest-news-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-3-516x270.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-8-516x270.png");
 }
 
 #latest-news-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design14-516x270.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/10/185570469-730x510.jpg");
 }
 
 #latest-news-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/broken-piggy-bank-1472485404YoO-480x270.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/bill-gates-484x270.jpg");
 }
 
 #latest-news-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Veo-33-514x270.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/fcc-logo-540x270.jpg");
 }
 
 #latest-news-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/vek6eka-540x270.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/macbook-air-aesthetics-480x270.png");
 }
 
 /* LATEST NEWS */
