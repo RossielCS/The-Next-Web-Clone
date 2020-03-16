@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1024px) {
+  #header-logo {
+    height: 80px;
+    display: inline-block;
+  }
+
+  .hidden-items-second-nabvar {
+    display: none;
+  }
+
+  #top-side-announcement {
+    padding-left: 111px;
+  }
+
+  /* FEAT ARTICLES */
+
+  .feature-articles {
+    height: 59.5vh;
+  }
+
+  #main-art-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  #feat-art-01 header p {
+    margin-top: 16px;
+  }
+
+  .feat-cover-orange,
+  #logo-cover,
+  #feat-cover-date {
+    visibility: hidden;
+  }
+
+  #second-art-title,
+  #third-art-title {
+    font-size: 20px;
+  }
+
+  #feat-art-01 header,
+  #feat-art-03 header,
+  #second-art-title {
+    left: 12px;
+    bottom: 18px;
+  }
+
+  /* FEAT ARTICLES */
+
+  /* LATEST NEWS */
+  .latest-news {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 31px repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  #latest-title {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+
+  div[id^="latest"] {
+    height: 154.3px;
+  }
+
+  /* LATEST NEWS */
+
+  /* LATEST FOUNDING */
+
+  .latest-funding {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .latest-funding > :nth-child(4) {
+    display: none;
+  }
+
+  .latest-funding-header {
+    grid-column: 1/4;
+  }
+
+  .latest-funding-header h2 {
+    display: block !important;
+  }
+
+  .latest-funding-header > a,
+  .latest-funding-header > span {
+    float: left;
+  }
+
+  /* LATEST FOUNDING */
+
+  /* MIX ARTICLES */
+
+  .mix-articles {
+    margin: -10px -10px 40px -10px;
+  }
+
+  .mix-articles section {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+
+  /* MIX ARTICLES */
+
+  /* LATEST DEALS */
+  .latest-deals {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 32px repeat(3, 1fr);
+  }
+
+  .latest-deals-header {
+    grid-column: 1/4;
+  }
+
+  .latest-deals h2 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header-logo {
+    height: 48px;
+  }
+
+  #first-navbar {
+    display: none;
+  }
+
+  #second-navbar ul {
+    display: none;
+  }
+
+  #second-nabvar-buttons {
+    margin-left: auto;
+  }
+
+  #menu-button {
+    display: inline-block;
+  }
+
+  #top-side-announcement {
+    height: 60px;
+    padding-left: 0;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  /* FEAT ARTICLES */
+  .feature-articles {
+    height: auto;
+    padding-top: 0;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  #feat-art-01 {
+    grid-row: 1/2;
+  }
+
+  #feat-art-01 header p,
+  #feat-art-03 header p {
+    margin-top: 5px;
+  }
+
+  #main-art-title,
+  #second-art-title,
+  #third-art-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .feature-articles article {
+    min-height: 28vh;
+  }
+
+  /* FEAT ARTICLES */
+  #partner-information {
+    padding-top: 18px;
+  }
+
+  #partner-information span {
+    display: block;
+    line-height: 20px;
+  }
+
+  .latest-funding-header h2 {
+    margin-bottom: 20px;
+  }
+
+  .latest-funding-header > a {
+    float: none;
+    display: block;
+  }
+
+  .line-between-text {
+    display: none;
+  }
+
+  /* LATEST NEWS */
+  .latest-news {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 14px;
+  }
+
+  div[id^="latest"] {
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .latest-news article h2 {
+    margin-top: 0;
+  }
+
+  .news-art-text {
+    margin-left: 90px;
+  }
+
+  /* LATEST NEWS */
+
+  .latest-funding {
+    grid-template-columns: 1fr;
+    grid-row: 32px auto;
+  }
+
+  .latest-funding header {
+    grid-column: 1/2;
+  }
+
+  .latest-funding article {
+    padding: 0;
+  }
+
+  /* MIX ARTICLES */
+  .mix-articles {
+    margin: -8px -8px 40px -8px;
+    flex-shrink: 1;
+  }
+
+  .mix-articles section {
+    padding: 8px;
+    margin: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #mix-art1-pic {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  /* MIX ARTICLES */
+
+  /* LATEST DEALS */
+
+  .latest-deals {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .latest-deals header {
+    grid-column: 1/2;
+  }
+
+  .deals-discount {
+    display: none;
+  }
+
+  .latest-deals article h2 {
+    margin-top: 0;
+  }
+
+  /* LATEST DEALS */
+}
