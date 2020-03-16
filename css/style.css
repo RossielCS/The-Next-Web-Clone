@@ -547,7 +547,7 @@ div[id^="latest"] {
   line-height: 21px;
 }
 
-.mix-art-part01 a {
+.mix-art-part01-link {
   margin: 0;
 }
 
@@ -593,11 +593,11 @@ div[id^="latest"] {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mix-art-writer a {
+.mix-art-writer-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mix-art-writer a:hover {
+.mix-art-writer-link:hover {
   color: white;
 }
 
@@ -618,7 +618,7 @@ div[id^="latest"] {
   background-color: rgba(255, 68, 34, 0.06);
 }
 
-.mix-art-part03 p {
+.mix-art-part03-latest {
   width: 50%;
   padding-top: 8px;
   padding-bottom: 1px;
@@ -627,11 +627,11 @@ div[id^="latest"] {
   font-weight: 500;
 }
 
-.mix-art-part03 > a {
+.mix-art-part03-pic-link {
   float: right;
 }
 
-.mix-art-part03 h4 a {
+.mix-art-part03-link {
   display: inline-block;
   width: 65%;
   font-family: Arial, Helvetica, sans-serif;
@@ -642,7 +642,7 @@ div[id^="latest"] {
   color: orangered;
 }
 
-.mix-art-part03 a:hover {
+.mix-art-part03-link:hover {
   text-decoration: underline;
 }
 
@@ -654,7 +654,7 @@ div[id^="latest"] {
   background-size: cover;
 }
 
-.mix-art-part04 li::before {
+.mix-art-part04::before {
   width: 1em;
   margin-left: -1em;
   display: inline-block;
@@ -663,12 +663,12 @@ div[id^="latest"] {
   color: orangered;
 }
 
-.mix-art-part04 li {
+.mix-art-part04 {
   padding: 8px 15px 8px 16px;
   border-bottom: 1px solid rgb(238, 238, 238);
 }
 
-.mix-art-part04 a {
+.mix-art-part04-link {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -677,11 +677,11 @@ div[id^="latest"] {
   color: rgb(85, 85, 85);
 }
 
-.mix-art-part04 a:hover {
+.mix-art-part04-link:hover {
   color: black;
 }
 
-.mix-art-part04 a:visited {
+.mix-art-part04-link:visited {
   color: rgba(167, 167, 167, 0.432);
 }
 
@@ -751,7 +751,6 @@ div[id^="latest"] {
 
 /* MIX ARTICLES */
 
-
 .latest-deals {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -759,7 +758,7 @@ div[id^="latest"] {
   gap: 20px;
 }
 
-.latest-deals header{
+.latest-deals header {
   grid-column: 1/5;
   display: flex;
   justify-content: space-between;
