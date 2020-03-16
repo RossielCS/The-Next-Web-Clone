@@ -230,6 +230,11 @@
     margin-top: 0;
   }
 
+  .news-art-text {
+    float: right;
+    width: 71%;
+  }
+
   /* LATEST NEWS */
 
   .latest-funding {
