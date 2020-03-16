@@ -9,10 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-nav {
-  background-color: aqua;
-}
-
 #header-logo {
   display: none;
   float: left;
