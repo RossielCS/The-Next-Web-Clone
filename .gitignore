@@ -1,2 +1,5 @@
 # Node Modules Folder
 node_modules/
+
+# Visual Studio Config Folder
+.vscode/
