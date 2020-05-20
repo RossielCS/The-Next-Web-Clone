@@ -13,7 +13,7 @@ We used floats, grid, flexbox, and media queries to make a responsive web page w
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RossielCS/The-Next-Web-Clone/cc3da6a8e943a2cdb2435c3e5f2d0e2684f61233/index.html)
+[Live Demo Link](https://raw.githack.com/RossielCS/The-Next-Web-Clone/Patch/index.html)
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ Before you continue, be sure that you have installed:
 👤 **Rossiel Carranza**
 
 * Github: [@RossielCS](https://github.com/RossielCS)
-* Linkedin: [Rossiel Carranza](https://www.linkedin.com/in/rossiel-carranza-1666b11a1/)
+* Linkedin: [Rossiel Carranza](https://www.linkedin.com/in/rossiel-carranza/)
 
 👤 **Luis Octavio Ramirez Cruz**
 
@@ -41,16 +41,16 @@ Before you continue, be sure that you have installed:
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](issues/).
 
 1. Fork this repository.
 
-2. Create a branch: git checkout -b <branch_name>.
+2. Create a branch: `git checkout -b <branch_name>`
 
-3. Make your changes and commit them: git commit -m '<commit_message>'
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
 
-4. Push to the original branch: git push origin <project_name>/<location>
+4. Push to the original branch: `git push origin <project_name>/<location>`
 
 5. Create the pull request.
 
