@@ -13,7 +13,7 @@ We used floats, grid, flexbox, and media queries to make a responsive web page w
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/RossielCS/The-Next-Web-Clone/Patch/index.html)
+[Live Demo Link](https://rossielcs-the-next-web.netlify.app/)
 
 
 ## Getting Started
@@ -58,12 +58,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
